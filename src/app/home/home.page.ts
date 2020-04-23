@@ -8,5 +8,9 @@ import { Component } from '@angular/core';
 export class HomePage {
 
   constructor() {}
+  text ='Default starting text';
+  onchangeText(){
+    this.text="changed";
+  }
 
 }
